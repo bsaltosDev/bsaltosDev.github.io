@@ -114,13 +114,6 @@ aside {
 footer {
   text-align: center;
   padding: 40px;
-  a {
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: none;
-  }
 }
 
 .portfolio-img{
@@ -133,4 +126,16 @@ footer {
   a {
     font-size: x-small;
   }
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
 }

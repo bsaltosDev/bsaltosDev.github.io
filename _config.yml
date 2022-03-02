@@ -30,6 +30,8 @@ twitter_username: ByDev1
 github_username: bsaltosDev
 linkedin_username: byron-saltos
 
+permalink: /:categories/:title/
+
 # Build settings
 sass:
   sass_dir: _sass
