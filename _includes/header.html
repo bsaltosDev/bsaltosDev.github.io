@@ -1,6 +1,8 @@
 <aside>
 	<div class="container">
 		<nav>
+			<label for="menu-toggle"><i class="fa fa-bars"></i> Menú</label>
+			<input type="checkbox" name="menu" id="menu-toggle">
 			<ul>
 				{% for page in site.pages %} 
 					{% if page.title %}
@@ -9,9 +11,7 @@
 						</li>
 					{% endif %} 
 				{% endfor %}
-				<li><a href="{{ site.url }}">Blog</a></li>
-			</ul>
-			</li>
+				<li><a href="{{ site.url }}">Blog</a><li>
 			</ul>
 		</nav>
 	</div>
