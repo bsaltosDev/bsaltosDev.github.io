@@ -168,6 +168,30 @@ a:visited {
   display: flex;
 }
 
+.img-post{
+  width: 100%;
+}
+
+table{
+  border: $heading-font-color 2px solid;
+  border-radius: 5px;
+  border-collapse: collapse;
+  thead{
+    color: $main;
+    th{
+      border: $heading-font-color 2px solid;
+      padding: 0.5em;
+    }
+  }
+  tbody{
+    tr{
+      td{
+        border: $heading-font-color 2px solid;
+      }
+    }
+  }
+}
+
 @media only screen and (min-width: 850px) {
   aside {
     nav {
