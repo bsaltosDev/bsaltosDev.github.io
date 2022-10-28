@@ -2,7 +2,7 @@
 layout: post
 title:  "Cambiar directorio por defecto de docker-data (WSL Windows)"
 date:   2022-10-27 22:45 -0500
-categories: CONFIG, DOCKER, WINDOWS, WSL
+categories: CONFIG DOCKER WINDOWS WSL
 ---
 
 Es esta entrada quisiera conversar un poco de cómo mover el directorio por defecto de la instalación de Docker sobre Windows con WSL.
