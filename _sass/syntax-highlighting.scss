@@ -2,7 +2,11 @@
  * Syntax highlighting styles
  */
  .highlight {
-    background: #fff;
+    background: #f7f7f7;
+    padding: 0.25em 1em;
+    overflow: auto;
+    word-wrap: normal;
+    border-radius: 5px;
 
     .c     { color: #998; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error
